@@ -1,0 +1,27 @@
+from typing import Final
+
+from datasets.common.state import NGSIMState as State
+
+VEHICLE_ID: Final[str]
+FRAME_ID: Final[str]
+LOCAL_POSITION: Final[str]
+VELOCITY: Final[str]
+ACCELERATION: Final[str]
+LOCAL_Y: Final[str]
+LOCAL_X: Final[str]
+LANE_ID: Final[str]
+TOTAL_FRAMES: Final[str]
+VEHICLE_LENGTH: Final[str]
+VEHICLE_WIDTH: Final[str]
+INITIAL_FRAME: Final[str]
+FINAL_FRAME: Final[str]
+VEHICLE_CLASS: Final[str]
+PRECEDING_DISTANCE: Final[str]
+FOLLOWING_DISTANCE: Final[str]
+LEFT_PRECEDING_DISTANCE: Final[str]
+LEFT_ALONGSIDE_DISTANCE: Final[str]
+LEFT_FOLLOWING_DISTANCE: Final[str]
+RIGHT_PRECEDING_DISTANCE: Final[str]
+RIGHT_ALONGSIDE_DISTANCE: Final[str]
+RIGHT_FOLLOWING_DISTANCE: Final[str]
+FT_TO_M: Final[float]
